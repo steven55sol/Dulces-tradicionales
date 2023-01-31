@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--rosado);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+:root{
+
+    /* Colores */
+    --rosado: #fec7c7;
+    --blanco: #f9f9f9;
+    --negro: #000000;
+    --rojo: #bd2121;
+    --rojoClaro: #e64949;
+    
+    /* Fuentes */
+    --fuente: 'Poppins';
+
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container-banner__title{
+    padding: 2rem 0rem;
+    line-height: 5rem;
+}
+
+.banner-title{
+    font-size: 5rem;
+    text-align: center;
+    font-family: var(--fuente);
+    font-weight: 700;
+    color: var(--blanco);
+    -webkit-text-stroke: 2px var(--rojo);
+}
+
+.banner-title span:nth-child(1){
+    color: var(--rojo);
+}
+
+.container-banner__btn{
+    margin-top: 2rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-banner__img{
+    margin: 0 auto;
+}
+
+.banner-btn{
+    background-color: var(--rojo);
+    padding: 1rem 5rem;
+    color: var(--blanco);
+    font-family: var(--fuente);
+    font-weight: 700;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+.banner-btn:hover{
+    background-color: #e64949;
+}
+
+
+@media  screen and (min-width:480px) {
+    
+    .banner-title{
+        font-size: 6.5rem;
+        line-height: 6.5rem;
+    }
+
+    .container-banner__img{
+        margin: 0 auto;
+    }
+    .banner-img{
+        width: 50rem;
+    }
+}
+
+@media screen and (min-width:720px){
+    .container-banner__title{
+        margin-top: 2rem;
+    } 
+    .banner-title{
+        font-size: 10rem;
+        line-height: 10rem;
+    }
+
+    .banner-btn{
+        padding: 2rem 7rem;
+    }
+
+    .banner-img{
+        width: 40rem;
+    }
+}
+
+@media screen and (min-width:1200px){  
+    .container{
+        max-width: 150rem;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+    }    
+
+    .container-banner__img{
+        width: 45%;
+        height: 100vh;
+        display:flex ;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .container-banner__title{
+        width: 55%;
+        margin: 0;
+    }
+
+    .banner-img{
+        width: 60rem;
+    }
+
+    .banner-title{
+       margin-top: 30rem;
+       text-align: left;
+       font-size: 12rem;
+       line-height: 10rem;
+    }
+
+    .container-banner__btn{
+        justify-content: left;
+    }
+}
