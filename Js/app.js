@@ -10,7 +10,7 @@ const $itemsCard = [
     {
         title: "Suspiros",
         image: "../src/img/suspiro.jpeg",
-        description:"El suspiro es un tipo de postre, hecho con clara de huevo batida y azúcar, preferiblemente glas, a los que se les puede añadir aromatizantes, o vainilla, avellana o almendras. Son muy ligeros y dulces y una vez hechos suelen ser usados como relleno de pasteles o, en su versión italiana, de tartas. Pueden ser blandos si se prepararan de la manera clásica o francesa, semiduros en la versión italiana, o duros si los merengues así preparados se cocinan en horno bajísimo hasta que se evapore la mayoría del agua, ya que los de mayor tamaño tienen un centro suave. "
+        description:"El suspiro es un tipo de postre, hecho con clara de huevo batida y azúcar, preferiblemente glas, a los que se les puede añadir aromatizantes, o vainilla, avellana o almendras. Son muy ligeros y dulces y una vez hechos suelen ser usados como relleno de pasteles o, en su versión italiana, de tartas."
     },
     {
         title: "Dulce de leche",
@@ -20,7 +20,7 @@ const $itemsCard = [
     {
         title: "Alfajores",
         image: "../src/img/Alfajor.jpeg",
-        description:"El alfajor es un postre dulce que comparte el origen con su homónimo español, una golosina tradicional de la gastronomía del Al-Ándalus, aunque guarde más similitudes con el alajú, en cuanto a su elaboración. Fue difundido en América durante el periodo colonial. Su nombre proviene del hispanoárabe al-hasú que significa 'el relleno'. El alfajor, en distintas variedades, es un postre difundido en muchos países hispanoamericanos como Argentina, Bolivia, Chile, Colombia, Costa Rica, Ecuador, México, Paraguay, Perú, Uruguay y Venezuela y El Salvador. "
+        description:"El alfajor es un postre dulce que comparte el origen con su homónimo español, una golosina tradicional de la gastronomía del Al-Ándalus, aunque guarde más similitudes con el alajú, en cuanto a su elaboración. Su nombre proviene del hispanoárabe al-hasú que significa 'el relleno'. El alfajor, en distintas variedades, es un postre difundido en muchos países hispanoamericanos como Argentina, Bolivia, Chile, Colombia, Costa Rica, Ecuador, México, Paraguay, Perú, Uruguay y Venezuela y El Salvador. "
     },
     {
         title: "Huevos mollos",
@@ -30,12 +30,12 @@ const $itemsCard = [
     {
         title: "Rompope",
         image: "../src/img/rompope.jpeg",
-        description:"Es una bebida tradicional conocida como tal en Belice, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua y México, donde fue elaborado originalmente en los conventos de la ciudad de Puebla. La palabra rompope es una derivación de la palabra rompon, que se usa para describir la versión española del ponche de huevo que llegó a México. La versión en español utiliza el ron como ingrediente principal, de ahí la raíz de rom-pon y rom-pope. En Centroamérica —especialmente en El Salvador, Guatemala y Honduras—, también existe una bebida similar conocida como rompopo."
+        description:"Es una bebida tradicional conocida como tal en Belice, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, Nicaragua y México, donde fue elaborado originalmente en los conventos de la ciudad de Puebla. La palabra rompope es una derivación de la palabra rompon, que se usa para describir la versión española del ponche de huevo que llegó a México."
     },
     {
         title: "Arroz con leche",
         image: "../src/img/arroz.jpeg",
-        description:"El arroz con leche es un postre típico de la gastronomía de múltiples países hecho cociendo lentamente arroz con leche y azúcar. Se sirve frío o caliente y se le suele espolvorear canela, vainilla o cáscara de limón para aromatizarlo.El arroz con leche tiene orígenes muy antiguos en Asia y luego se difundió a través de Europa y África. A partir del siglo XVI tras la colonización se exportó a América debido al comercio y población europea que emigraba al territorio americano."
+        description:"El arroz con leche es un postre típico de la gastronomía de múltiples países hecho cociendo lentamente arroz con leche y azúcar. Se sirve frío o caliente y se le suele espolvorear canela, vainilla o cáscara de limón para aromatizarlo.El arroz con leche tiene orígenes muy antiguos en Asia y luego se difundió a través de Europa y África."
     },
     {
         title: "Buñuelos",
@@ -50,22 +50,22 @@ const $itemsCard = [
     {
         title: "Empanada de Guayaba",
         image: "../src/img/empanada.jpeg",
-        description:"Las Empanadas de guayaba (conocidos en español como pasteles o pastelitos (también el nombre de los pasteles venezolanos hechos en región de los Andes) son pasteles de puff al horno - pasteles de tipo relleno dulce o salado. Los rellenos tradicionales incluyen quesitos de queso crema, guayaba (pastelito de guayaba) y queso, piña y coco. Los dulces rellenos se elaboran con pulpas de fruta endulzadas. El relleno de queso crema también es una versión ligeramente endulzada de queso crema, que se asemeja al sabor y textura de un pastel de queso."
+        description:"Las Empanadas de guayaba (conocidos en español como pasteles o pastelitos (también el nombre de los pasteles venezolanos hechos en región de los Andes) son pasteles de puff al horno - pasteles de tipo relleno dulce o salado. Los rellenos tradicionales incluyen quesitos de queso crema, guayaba (pastelito de guayaba) y queso, piña y coco."
     },
     {
         title: "Dulce de guayaba",
         image: "../src/img/guayaba.jpeg",
-        description:"Es una pasta o conserva resultante de la mezcla de guayabas maduras y panela o azúcar, la cual mediante cocción logra una contextura dura y un color rojo brillante. El producto tradicional tiene forma de bloques pequeños con dos bandas delgadas de pasta clara elaboradas con guayaba blanca, y una banda gruesa central de pasta roja, elaborada con guayaba roja. El bocadillo veleño tradicional es empacado individualmente en hojas de bijao, las cuales conservan el producto y le dan un aroma y un gusto característicos."
+        description:"Es una pasta o conserva resultante de la mezcla de guayabas maduras y panela o azúcar, la cual mediante cocción logra una contextura dura y un color rojo brillante. El producto tradicional tiene forma de bloques pequeños con dos bandas delgadas de pasta clara elaboradas con guayaba blanca, y una banda gruesa central de pasta roja, elaborada con guayaba roja."
     },
     {
         title: "Membrillo",
         image: "../src/img/membrillo.jpeg",
-        description:" El dulce de membrillo es un dulce preparado a partir de la fruta del membrillo. Es originario de España (donde se encuentran zonas de producción típicas como en el máximo exportador de dulce de membrillo mundial, Puente Genil) y de Portugal. El dulce de membrillo se emplea en la gastronomía hispanoamericana, principalmente Ecuador, argentina, costarricense, uruguaya, chilena, mexicana, peruana y puertorriqueña. En Argentina, se produce un dulce de membrillo denominado dulce de membrillo rubio de San Juan que, por sus características, ha obtenido la calificación D.O.P."
+        description:" El dulce de membrillo es un dulce preparado a partir de la fruta del membrillo. Es originario de España (donde se encuentran zonas de producción típicas como en el máximo exportador de dulce de membrillo mundial, Puente Genil) y de Portugal."
     },
     {
         title: "Guaguas de pan",
         image: "../src/img/guaguas.jpeg",
-        description:"Las guaguas de pan, muñecas de pan, wawas de pan o tantawawas, son dulces que consisten en panes grandes usualmente de trigo, moldeados y adornados con forma de niño pequeño o bebé, y decorados con pasta de azúcar o caritas hechas de yeso. A veces rellenas de dulce, se elaboran y consumen junto a la colada morada y se usan como parte de ritos ancestrales en regiones andinas de Argentina, Bolivia, Ecuador, Perú y sur de Colombia, principalmente el 2 de noviembre en conmemoración de los fieles difuntos, pero también en fiestas agrarias, carnavales y Navidad como elemento simbólico de alianzas y compromisos sociales.."
+        description:"Las guaguas de pan, muñecas de pan, wawas de pan o tantawawas, son dulces que consisten en panes grandes usualmente de trigo, moldeados y adornados con forma de niño pequeño o bebé, y decorados con pasta de azúcar o caritas hechas de yeso. A veces rellenas de dulce, se elaboran y consumen junto a la colada morada y se usan como parte de ritos ancestrales en regiones andinas de Argentina, Bolivia, Ecuador."
     },
     {
         title: "Torta de yuca",
@@ -75,17 +75,17 @@ const $itemsCard = [
     {
         title: "Dulce de piña",
         image: "../src/img/piña.jpeg",
-        description:"Esta mermelada o dulce se puede preparar de diferentes formas, según la textura que usted desea. Lo puede hacer al estilo de una mermelada, usando piña licuada. O si lo desea más al estilo del dulce con trozos de piña caramelizada, se usa piña picada en cuadritos. O puede hacer una combinación de ambas opciones. Un postre muy común en Ecuador es queso acompañado con dulces de frutas. Se utiliza un queso muy fresco y tierno llamado quesillo. Cuando mi esposo prepara crepas  , su especialidad, para el postre utilizamos la mermelada de piña como relleno y quedan deliciosas."
+        description:"Esta mermelada o dulce se puede preparar de diferentes formas, según la textura que usted desea. Lo puede hacer al estilo de una mermelada, usando piña licuada. O si lo desea más al estilo del dulce con trozos de piña caramelizada, se usa piña picada en cuadritos. O puede hacer una combinación de ambas opciones. Un postre muy común en Ecuador es queso acompañado con dulces de frutas."
     },
     {
         title: "Mantequilla de copoazu",
         image: "../src/img/mantequilla.JPG",
-        description:"La mantequilla de copuazú tiene grandes propiedades humectantes, ya que al tener la capacidad de retener la hidratación en piel y cabello 240% mas que la lanolina y su alto contenido en proteínas, calcio, fósforo, hierro, vitaminas B y C, así como ácidos grasos insaturados, resulta ser una potentente aliada para el cuidado de los cabellos secos. Use este producto en el cabello después de su crema de peinar favorita. Concéntrese específicamente en puntas y medios si lo que desea es moldear sus rizos. En la piel, se recomienda aplicarla después del baño."
+        description:"La mantequilla de copuazú tiene grandes propiedades humectantes, ya que al tener la capacidad de retener la hidratación en piel y cabello 240% mas que la lanolina y su alto contenido en proteínas, calcio, fósforo, hierro, vitaminas B y C, así como ácidos grasos insaturados, resulta ser una potentente aliada para el cuidado de los cabellos secos."
     },
     {
         title: "Casabe de yuca",
         image: "../src/img/casabe.jpg",
-        description:"El casabe de yuca es un pan ácimo, crujiente, delgado y circular hecho de harina de yuca. Este se asa en un budare, comal o a la plancha. Su producción y consumo se remonta a tiempos prehispánicos; se elabora a partir de la yuca o mandioca. La yuca o mandioca era, junto al maíz, uno de los principales cultivos de la época precolombina. Debido a las posibilidades de conservación, el casabe era una de las fuentes fundamentales de alimentación de los indígenas del norte del subcontinente."
+        description:"El casabe de yuca es un pan ácimo, crujiente, delgado y circular hecho de harina de yuca. Este se asa en un budare, comal o a la plancha. Su producción y consumo se remonta a tiempos prehispánicos; se elabora a partir de la yuca o mandioca. La yuca o mandioca era, junto al maíz, uno de los principales cultivos de la época precolombina."
     }
 ];
 
@@ -131,7 +131,7 @@ d.addEventListener('DOMContentLoaded', ()=>{
 d.addEventListener('click', e=>{
     if(e.target.matches('.card-dulces') || e.target.matches(`.card-dulces *`)){
         
-        d.documentElement.style.overflowY = "hidden";
+       d.documentElement.style.overflowY = "hidden"; 
 
         $contenedor = e.target.closest('.card-dulces');
 
