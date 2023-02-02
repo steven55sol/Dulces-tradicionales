@@ -149,6 +149,7 @@ img{
     justify-content: center;
     align-items: center;
     visibility: hidden;
+    z-index: 1;
 }
 
 .container-data{
@@ -196,6 +197,7 @@ img{
 .footer{
     background-color: #f97272;
 }
+
 .footer-title{
     text-align: center;
     font-size: 2rem;
