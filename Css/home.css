@@ -61,9 +61,17 @@ img{
 
 .header{
     width: 100%;
-    height: 40rem;
     background-color: #f97272;
     padding: .1rem;
+}
+
+.container-logo{
+    width: 100%;
+    padding: 1rem;
+}
+
+.logo-header{
+    width: 8rem;
 }
 
 .header-title{
@@ -197,7 +205,45 @@ img{
 }
 
 .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #f97272;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.title-sobre, .redes-title{
+   font-family: var(--fuente);
+   color: var(--blanco);
+   padding: 1rem 0rem;
+}
+
+.parrafo-sobre{
+    font-size: 1.6rem;
+    font-family: var(--fuente);
+    color: var(--blanco);
+}
+
+.redes-title{
+   font-size: 2.5rem;
+   color: var(--blanco);
+}
+
+.redes-item{
+    font-size: 1.6rem;
+    padding: .5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-family: var(--fuente);
+    color: #fff;
+}
+
+.icons{
+    width: 3rem;
+    height: 3rem;
 }
 
 .footer-title{
@@ -208,8 +254,9 @@ img{
     -webkit-text-stroke: 1px #f2f2f2;
 }
 
+
 @media screen and (min-width:480px){
-   .header{
+   .container-header__data{
      display: grid;
      grid-template-columns: 45% 55%;
      grid-template-rows: 1fr;
@@ -230,6 +277,8 @@ img{
    .container-data{
     width: 50rem;
    }
+
+   
 }
 
 @media screen and (min-width:720px){ 
@@ -246,13 +295,17 @@ img{
    .header-title{
     font-size: 5rem;
    }
-
+   
    .card-img{
     height: 180px;
+}
+
+.data-img{
+    height: 25rem;
    }
 
-   .data-img{
-    height: 25rem;
+   .parrafo-sobre{
+    font-size: 2rem;
    }
 }
 
@@ -264,12 +317,25 @@ img{
     .header-title{
         font-size: 6rem;
     }
-
+    
     .card-img{
         height: 180px;
     }
 
     .footer-title{
         font-size: 2rem;
+    }
+    
+    .parrafo-sobre{
+        width: 80%;
+    }
+
+    .container-sobre{
+        margin-left: 4rem;
+    }
+    
+    .contenedor-data{
+     display: grid;
+     grid-template-columns: 70% 30%;
     }
 }
